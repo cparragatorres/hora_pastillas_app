@@ -1,0 +1,27 @@
+import 'package:flutter/material.dart';
+import 'package:hora_pastilla/pages/login_page.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
+        useMaterial3: true,
+      ),
+      home: Container(
+        color: Colors.deepPurpleAccent,
+        child: const SafeArea(
+          child: LoginPage(),
+        ),
+      ),
+    );
+  }
+}
