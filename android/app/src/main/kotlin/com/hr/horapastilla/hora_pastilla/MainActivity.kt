@@ -1,4 +1,4 @@
-package com.hr.horapastilla.hora_pastilla
+package com.hr.horapastilla
 
 import io.flutter.embedding.android.FlutterActivity
 

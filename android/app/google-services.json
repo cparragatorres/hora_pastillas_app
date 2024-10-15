@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "487155819120",
+    "project_id": "hora-pastilla",
+    "storage_bucket": "hora-pastilla.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487155819120:android:1879391f55c55154574ab5",
+        "android_client_info": {
+          "package_name": "com.hr.horapastilla"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSJLVxgIF3i0dhsHdopSAJ66vOFeuynU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
